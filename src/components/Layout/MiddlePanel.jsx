@@ -1,11 +1,15 @@
 import React from 'react';
-import NavBar from '../OtherComponents/NavBar';
+import Card from '../OtherComponents/Card';
+import Statistics from '../OtherComponents/Statistics';
+import Transactions from '../OtherComponents/Transactions';
 
 const MiddlePanel = () => {
   return (
-    <main className="flex min-h-screen flex-1 flex-col rounded-l-[48px] bg-gray-800 p-8">
-      <NavBar />
-    </main>
+    <div className="flex w-3/5 flex-col gap-y-8">
+      <Card />
+      <Statistics />
+      <Transactions />
+    </div>
   );
 };
 
