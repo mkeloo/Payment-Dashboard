@@ -8,7 +8,7 @@ const NavBar = () => {
         <h1 className="text-[30px] font-bold text-white">Overview</h1>
         <div className="flex items-center gap-x-2">
           <div className="relative">
-            <span className="absolute inset-y-0 flex items-center px-3">
+            <span className="absolute inset-y-0 flex items-center px-3 pointer-events-none">
               <FiSearch className="w-6 h-6 stroke-current text-gray-400" />
             </span>
             <input
