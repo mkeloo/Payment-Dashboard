@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../OtherComponents/Card';
 import Statistics from '../OtherComponents/Statistics';
 import Transactions from '../OtherComponents/Transactions';
+import Invoices from '../OtherComponents/Invoices';
 
 const MiddlePanel = () => {
   return (
@@ -9,6 +10,7 @@ const MiddlePanel = () => {
       <Card />
       <Statistics />
       <Transactions />
+      <Invoices />
     </div>
   );
 };
